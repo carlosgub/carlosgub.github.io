@@ -1,0 +1,34 @@
+{
+  "name": "carlosgub.github.io",
+  "version": "1.0.0",
+  "description": "carlosgub.github.io",
+  "main": "server.js",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "express": "^4.15.4",
+    "jquery.typist": "0.0.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-typist": "^1.1.1",
+    "server-js": "^0.1.4",
+    "typist": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosgub/carlosgub.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosgub/carlosgub.github.io/issues"
+  },
+  "homepage": "https://github.com/carlosgub/carlosgub.github.io#readme"
+}

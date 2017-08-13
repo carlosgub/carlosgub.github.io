@@ -1,21 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Carlos Ugaz CV</title>
-	<link rel="stylesheet" href="/css/bootstrap.min.css" >
+	<meta charset="utf-8" />
+	<title>Responsive Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	
+	<!-- just in case viewer is using Internet Explorer -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
 </head>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1>CV CARLOS UGAZ</h1>
-			</div>
-		</div>		
-	</div>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="/js/bootstrap.min.js"></script>
 <body>
+	
+	<!-- Header-->
+	<header>
+		<h1>Rossy Espinoza</h1>
+		<p>Estudiante de Ingenieria de Sistemas</p>
+	</header>
+	
+	<div class="container">
+		
+		<!-- Introduction-->
+		<section class="center">
 
+			<img style="width: 140px" src="img/foto_perfil.jpg">
+			<h1>Perfil Profesional</h1>
+			<p>
+				Estudiante de Ingenieria de Sistemas con Experiencia laboral en calidad de software usando SoapUI, mySql, SQL developer, Grupal y Command Editor 2 para realizar testing de los programas.
+			</p>
+		</section>
+		
+		<hr>
+		
+		<!-- Gallery Block-->
+		<section class="gallery">
+			<h1 class="center">Gallery</h1>
+			<div class="row">
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+			</div>
+		</section>
+		
+		<hr>
+		
+		<!-- Testimonials-->	
+		<section class="testimonial">
+			<div class="row">
+				<div class="grid-2">
+					<img src="img/re.png">
+					<h2>Their Name</h2>
+					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+				</div>
+				
+				<div class="grid-2">
+					<img src="img/re.png">
+					<h2>Their Name</h2>
+					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+				</div>
+		
+				<div class="grid-2">
+					<img src="img/re.png">
+					<h2>Their Name</h2>
+					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+				</div>
+			</div>
+		</section>
+	</div> <!-- End container-->
+	
+	<!-- Spotlight -->
+	<section class="spotlight">
+		<div class="container">
+			<div class="row">
+				<div class="grid-3">
+					<img src="img/spotlight.jpg">
+				</div>
+				<div class="grid-3">
+					<h1>Intereses</h1>
+					<p>Give a brief description of what this project is and what role you played. It can also be helpful to include a link</p>
+					<a href="#">View Project</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- New container-->
+	<div class="container">
+	
+		<section class="education">	
+			<h2>Informacion sobre Mi.</h2>
+		</section>
+		
+		<hr>
+			
+		<!--Educacion Tables-->
+		<section class="experience">
+			<div class="row">
+				<div class="grid-2">
+					<h2>Universidad de Lima</h2>
+					<p>2013 - Actualidad</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Estudiante de la Universidad de Lima encontrandome en el 8vo ciclo de la carrera y perteneciendo al medio superior</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<!--Experience Tables-->
+		<section class="experience">
+			<div class="row">
+				<div class="grid-2">
+					<h2>Universidad de Lima</h2>
+					<p>01/05/16 - 23/10/17</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Practicante del area de calidad de la Universidad de Lima donde mis principales funciones eran hacer revision de documentacion de sistemas, elaboracion de casos de pruebas, la ejecucion de casos de pruebas y elaboracion de informe de pruebas ejecutadas a las operaciones.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<hr>
+		
+		<section>
+			<!--List of skills-->
+			<div class="row">
+				<div class="grid-2">
+					<h1>Skills</h1>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>Angular.js</li>
+						<li>Photoshop</li>
+						<li>Git</li>
+					</ul>
+				</div>
+				
+				<div class="grid-4">
+					<h1>In Conclusion</h1>
+					<p>
+						This is a good spot to highlight experiance and skills. Make sure to include a call to action like a link to your website, or your email address.
+						If you find bugs, want features, or have questions, feel free to submit an <a href="https://github.com/philipcdavis/responsive-resume/issues">issue</a>. You are free to use without attribution.
+						If you're ok sharing, I would love seeing what you make! Shoot me an
+						<a href="mailto:Phillysoul11@gmail.com?Subject=Responsive%20Resume" target="_top">email</a> or
+						<a href="http://www.twitter.com/philipcdavis">tweet</a> at me.
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<!--Footer-->
+		<footer class="center">
+			<hr>
+			<span>&copy; Rossy Espinoza 2017</span>
+		</footer>
+		
+	</div><!-- End Container -->
+	
 </body>
 </html>

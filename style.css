@@ -23,6 +23,51 @@ a:focus,
 a:hover {
   color: #6594e0;
 }
+.chartbox p
+{
+  margin-top:20px;
+  font-size:17px;
+  font-weight:700;
+  color:#ffffff;
+  text-align:center;
+  visibility:hidden;
+  text-transform:capitalize;
+}
+.chartbox
+{
+  margin-left:50px;
+  margin-top:5px;
+  float:left;
+  display:block;
+}
+.car,.skills ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+.car li ,.skills li
+{
+    display: block;
+    float: left;
+}
+
+.hideme
+{
+  opacity:0;
+}
+
+.chart
+{
+  color:#ffffff;
+  font-size:24px;
+  font-weight:400;
+}
+.chart span
+{
+  visibility:hidden;
+}
 
 p {
   font-size: 1em;
